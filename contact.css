@@ -1,0 +1,73 @@
+body {
+	background: linear-gradient(-45deg, #0F2027, #203A43, #2C5364);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+
+    font-family: montserrat;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.row{
+    padding:4% 7%;
+    text-align: center;
+    margin: 0%;
+    
+}
+
+.login-card{
+   padding: 4%;
+    margin: auto;
+    color: #e8e8e8;
+    border-radius: 4%;
+}
+
+.heading{
+    font-family: merriweather;
+    color: black;
+    font-weight: 700;
+}
+
+.heading:hover{
+    -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+transition-duration: 0.5s;
+}
+p{
+    padding-top: 10px;
+    color: black;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight: 500;
+}
+.form-row{
+    padding: 0%;
+}
+.input-box{
+    margin: 30px 0;
+}
+
+.cont-img{
+    width: 320px;
+
+}
+.submit{
+    float: left;
+    padding: 6px 8px;
+}
+.input-col{
+    text-align: left;
+}
+.icon{
+    padding-right: 15px;
+    padding-left: 15px;
+}
